@@ -88,11 +88,7 @@ dtls_ca_file=/etc/asterisk/keys/ca.crt <br />
 
 ## Code
 Download the project <br />
-npm build <br />
+git clone https://github.com/kendry21/React-WebRTC-Sip.git <br />
+
 npm install <br />
-
-npm install --save draft-js react react-dom <br />
-
-npm run build <br />
-
-
+npm build <br />
