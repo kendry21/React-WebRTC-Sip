@@ -19,6 +19,7 @@ tlsenable=yes <br />
 tlsbindaddr=0.0.0.0:8089 <br />
 tlscertfile=/etc/asterisk/keys/asterisk.pem <br />
 
+
 ### /etc/asterisk/extensions.conf
 [default]
 exten => bob,1,Dial(PJSIP/${EXTEN})
