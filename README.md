@@ -81,7 +81,7 @@ webrtc=yes <br />
 dtls_cert_file=/etc/asterisk/keys/asterisk.pem <br />
 dtls_ca_file=/etc/asterisk/keys/ca.crt <br />
 
-## Aplication
+## Application
 Download the project <br />
 git clone https://github.com/kendry21/React-WebRTC-Sip.git <br />
 
