@@ -13,11 +13,11 @@ Download and install Asterisk
 [general]
 enabled=yes
 
-bindaddr=0.0.0.0__
-bindport=8088__
-tlsenable=yes__
-tlsbindaddr=0.0.0.0:8089__
-tlscertfile=/etc/asterisk/keys/asterisk.pem__
+bindaddr=0.0.0.0 <br />
+bindport=8088 <br />
+tlsenable=yes <br />
+tlsbindaddr=0.0.0.0:8089 <br />
+tlscertfile=/etc/asterisk/keys/asterisk.pem <br />
 
 ### /etc/asterisk/extensions.conf
 [default]
