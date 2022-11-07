@@ -92,4 +92,4 @@ dtls_ca_file=/etc/asterisk/keys/ca.crt <br />
 git clone https://github.com/kendry21/React-WebRTC-Sip.git <br />
 npm install <br />
 npm build <br />
-```sh
+```
