@@ -10,7 +10,7 @@ Download and install Asterisk
 ## Modify asterisk files
 
 ### /etc/asterisk/http.conf
-[general]
+[general] <br />
 enabled=yes
 
 bindaddr=0.0.0.0 <br />
@@ -37,17 +37,17 @@ type=transport <br />
 bind=0.0.0.0 <br />
 protocol=wss <br />
 
-[bob]
+[bob] <br />
 type=aor <br />
 max_contacts=1 <br />
 
-[bob]
+[bob] <br />
 type=auth <br />
 auth_type=userpass <br />
 username=bob <br />
 password=123456 ; This is an insecure password <br />
 
-[bob]
+[bob] <br />
 type=endpoint <br />
 context=default <br />
 direct_media=no <br />
@@ -60,15 +60,15 @@ webrtc=yes <br />
 dtls_cert_file=/etc/asterisk/keys/asterisk.pem <br />
 dtls_ca_file=/etc/asterisk/keys/ca.crt <br />
 
-[lucy]
-type=aor
-max_contacts=1
+[lucy] <br />
+type=aor <br />
+max_contacts=1 <br />
 
-[lucy]
-type=auth
-auth_type=userpass
-username=lucy
-password=123456 ; This is an insecure password
+[lucy] <br />
+type=auth <br />
+auth_type=userpass <br />
+username=lucy <br />
+password=123456 ; This is an insecure password <br />
 
 [lucy]
 type=endpoint <br />
@@ -87,12 +87,12 @@ dtls_ca_file=/etc/asterisk/keys/ca.crt <br />
 
 
 ## Code
-Download the project
-npm build
-npm install
+Download the project <br />
+npm build <br />
+npm install <br />
 
-npm install --save draft-js react react-dom
+npm install --save draft-js react react-dom <br />
 
-npm run build
+npm run build <br />
 
 
