@@ -1,3 +1,9 @@
+# Features
+- Call extensions
+- Transfer call to third extension
+- Mute call
+- Add notes during call
+
 # Requeriments
 You will need a sip server to use the application.
 
@@ -82,8 +88,8 @@ dtls_cert_file=/etc/asterisk/keys/asterisk.pem <br />
 dtls_ca_file=/etc/asterisk/keys/ca.crt <br />
 
 ## Application
-Download the project <br />
+```sh
 git clone https://github.com/kendry21/React-WebRTC-Sip.git <br />
-
 npm install <br />
 npm build <br />
+```sh
