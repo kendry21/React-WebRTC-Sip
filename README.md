@@ -1,4 +1,4 @@
-# Sip Server
+# Installation
 
 ## Install Asterisk server.
 
@@ -86,6 +86,8 @@ dtls_ca_file=/etc/asterisk/keys/ca.crt
 Download the project
 npm build
 npm install
+
+npm install --save draft-js react react-dom
 
 npm run build
 
