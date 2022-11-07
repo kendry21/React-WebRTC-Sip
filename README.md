@@ -1,6 +1,9 @@
-# Installation
+# Requeriments
+You will need a sip server to use the application.
 
 ## Install Asterisk server.
+Install a Ubuntu server 16.04.7 LTS
+Download and install Asterisk
 
 ## Add certificates.
 
