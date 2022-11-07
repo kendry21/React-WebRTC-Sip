@@ -11,8 +11,7 @@ Download and install Asterisk
 
 ### /etc/asterisk/http.conf
 [general] <br />
-enabled=yes
-
+enabled=yes <br />
 bindaddr=0.0.0.0 <br />
 bindport=8088 <br />
 tlsenable=yes <br />
