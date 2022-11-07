@@ -22,43 +22,43 @@ tlscertfile=/etc/asterisk/keys/asterisk.pem <br />
 
 ### /etc/asterisk/extensions.conf
 [default]
-exten => bob,1,Dial(PJSIP/${EXTEN})
-exten => lucy,1,Dial(PJSIP/${EXTEN})
+exten => bob,1,Dial(PJSIP/${EXTEN}) <br />
+exten => lucy,1,Dial(PJSIP/${EXTEN}) <br />
 
 ### /etc/asterisk/rtp.conf
-[general]
-rtpstart=10000
-rtpend=20000
-stunaddr=stun.l.google.com:19302
+[general] <br />
+rtpstart=10000 <br />
+rtpend=20000 <br />
+stunaddr=stun.l.google.com:19302 <br />
 
 ### /etc/asterisk/pjsip.conf
-[transport_wss]
-type=transport
-bind=0.0.0.0
-protocol=wss
+[transport_wss] <br />
+type=transport <br />
+bind=0.0.0.0 <br />
+protocol=wss <br />
 
 [bob]
-type=aor
-max_contacts=1
+type=aor <br />
+max_contacts=1 <br />
 
 [bob]
-type=auth
-auth_type=userpass
-username=bob
-password=123456 ; This is an insecure password
+type=auth <br />
+auth_type=userpass <br />
+username=bob <br />
+password=123456 ; This is an insecure password <br />
 
 [bob]
-type=endpoint
-context=default
-direct_media=no
-allow=!all,ulaw,vp8,h264
-aors=bob
-auth=bob
-max_audio_streams=10
-max_video_streams=10
-webrtc=yes
-dtls_cert_file=/etc/asterisk/keys/asterisk.pem
-dtls_ca_file=/etc/asterisk/keys/ca.crt
+type=endpoint <br />
+context=default <br />
+direct_media=no <br />
+allow=!all,ulaw,vp8,h264 <br />
+aors=bob <br />
+auth=bob <br />
+max_audio_streams=10 <br />
+max_video_streams=10 <br />
+webrtc=yes <br />
+dtls_cert_file=/etc/asterisk/keys/asterisk.pem <br />
+dtls_ca_file=/etc/asterisk/keys/ca.crt <br />
 
 [lucy]
 type=aor
@@ -71,17 +71,17 @@ username=lucy
 password=123456 ; This is an insecure password
 
 [lucy]
-type=endpoint
-context=default
-direct_media=no
-allow=!all,ulaw,vp8,h264
-aors=lucy
-auth=lucy
-max_audio_streams=10
-max_video_streams=10
-webrtc=yes
-dtls_cert_file=/etc/asterisk/keys/asterisk.pem
-dtls_ca_file=/etc/asterisk/keys/ca.crt
+type=endpoint <br />
+context=default <br />
+direct_media=no <br />
+allow=!all,ulaw,vp8,h264 <br />
+aors=lucy <br />
+auth=lucy <br />
+max_audio_streams=10 <br />
+max_video_streams=10 <br />
+webrtc=yes <br />
+dtls_cert_file=/etc/asterisk/keys/asterisk.pem <br />
+dtls_ca_file=/etc/asterisk/keys/ca.crt <br />
 
 
 
