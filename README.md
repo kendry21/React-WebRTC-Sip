@@ -89,7 +89,7 @@ dtls_ca_file=/etc/asterisk/keys/ca.crt <br />
 
 ## Application
 ```sh
-git clone https://github.com/kendry21/React-WebRTC-Sip.git <br />
-npm install <br />
-npm build <br />
+git clone https://github.com/kendry21/React-WebRTC-Sip.git
+npm install
+npm build
 ```
